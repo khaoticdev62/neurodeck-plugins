@@ -1,0 +1,53 @@
+{
+  "schema_version": "1",
+  "plugins": [
+    {
+      "id": "ip-lookup",
+      "name": "IP Lookup",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "description": "Look up IP address details including geolocation and ISP. Usage: /iplookup <address>",
+      "tags": ["network", "utility"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/ip_lookup.lua",
+      "lua_file": "ip_lookup.lua",
+      "installed": false,
+      "enabled": false
+    },
+    {
+      "id": "auto-responder",
+      "name": "Auto Responder",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "description": "Automatically respond to messages matching configurable keyword patterns.",
+      "tags": ["automation", "chat"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/auto_responder.lua",
+      "lua_file": "auto_responder.lua",
+      "installed": false,
+      "enabled": false
+    },
+    {
+      "id": "prompt-gen",
+      "name": "Prompt Generator",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "description": "AIDA / SCQA / PASTOR formula-driven prompt generation. Commands: /promptlab, /promptgen <task>, /formula <name> <task>",
+      "tags": ["ai", "productivity", "prompts"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/promptgen.lua",
+      "lua_file": "promptgen.lua",
+      "installed": false,
+      "enabled": false
+    },
+    {
+      "id": "bmad-personas",
+      "name": "BMAD Agent Personas",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "description": "Activates the full BMAD AI persona suite: John (PM), Sally (UX), Winston (Architect), Amelia (Dev), Paige (Writer), Mary (Analyst).",
+      "tags": ["ai", "personas", "bmad"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/bmad.lua",
+      "lua_file": "bmad.lua",
+      "installed": false,
+      "enabled": false
+    }
+  ]
+}
