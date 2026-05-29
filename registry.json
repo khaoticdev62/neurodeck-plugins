@@ -6,409 +6,352 @@
       "name": "IP Lookup",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "network",
       "description": "Look up any IP address and get back its city, country, ISP, and ASN. No API key needed. Usage: /iplookup <address>",
-      "tags": [
-        "network",
-        "utility"
-      ],
+      "tags": ["network", "utility"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/ip_lookup.lua",
-      "lua_file": "ip_lookup.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "5724e50f968d34069c8c97d1558d198e3acc1140501d508333703d6bd23bb66d",
-      "category": "utility"
+      "lua_file": "ip_lookup.lua"
     },
     {
       "id": "auto-responder",
       "name": "Auto Responder",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "productivity",
       "description": "Automatically reply to Chat messages that match keyword patterns you define. Set up triggers and responses with /respond, list them with /responses.",
-      "tags": [
-        "automation",
-        "chat"
-      ],
+      "tags": ["automation", "chat"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/auto_responder.lua",
-      "lua_file": "auto_responder.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "117830e463b9b72d6e17a0e92b2e6e0748538b527bd6906475e98ca0f3a064ae",
-      "category": "utility"
+      "lua_file": "auto_responder.lua"
     },
     {
       "id": "prompt-gen",
       "name": "Prompt Generator",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "ai",
       "description": "Generate precision-crafted AI prompts using proven formulas (AIDA, SCQA, PASTOR, CoT, ToT, PAS). Commands: /promptlab, /promptgen <task>, /formula <name> <task>.",
-      "tags": [
-        "ai",
-        "productivity",
-        "prompts"
-      ],
+      "tags": ["ai", "productivity", "prompts"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/promptgen.lua",
-      "lua_file": "promptgen.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "cd16791672ee93f5540704f912401a502875c195bddbca0385d81641a65724f1",
-      "category": "ai"
+      "lua_file": "promptgen.lua"
     },
     {
       "id": "bmad-personas",
       "name": "BMAD Agent Personas",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "ai",
       "description": "Activates the full BMAD AI persona suite: John (PM), Sally (UX), Winston (Architect), Amelia (Dev), Paige (Writer), Mary (Analyst). Switch with /john, /sally, etc.",
-      "tags": [
-        "ai",
-        "personas",
-        "bmad"
-      ],
+      "tags": ["ai", "personas", "bmad"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/bmad.lua",
-      "lua_file": "bmad.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "95ff05221af4ec560714a18f67ec7f4b62f697c407181debe31677def499aa4d",
-      "category": "ai"
+      "lua_file": "bmad.lua"
     },
     {
       "id": "sysmon",
       "name": "System Monitor",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "system",
       "description": "Live system stats without leaving the terminal. CPU load, RAM usage, disk space, uptime, and running processes. Commands: /sysmon /cpu /ram /disk /uptime /procs.",
-      "tags": [
-        "system",
-        "monitoring",
-        "utility"
-      ],
+      "tags": ["system", "monitoring", "utility"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/sysmon.lua",
-      "lua_file": "sysmon.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "e3dac081cae9c8dface80f0b5b52b9eeadff25493464a8cf844a12f6418cb4df",
-      "category": "system"
+      "lua_file": "sysmon.lua"
     },
     {
       "id": "gitops",
       "name": "Git Operations",
       "author": "khaoticdev62",
       "version": "1.0.0",
-      "description": "Short-hand git commands for the daily workflow. Status, diff, log, commit, push, branch, stash, and reset \u2014 all sanitized and safe. Commands: /gs /gd /gl /gc /gp /gf /gb /gco /gst /greset /gchanged.",
-      "tags": [
-        "git",
-        "devops",
-        "productivity"
-      ],
+      "category": "integration",
+      "description": "Short-hand git commands for the daily workflow. Status, diff, log, commit, push, branch, stash, and reset — all sanitized and safe. Commands: /gs /gd /gl /gc /gp /gf /gb /gco /gst /greset /gchanged.",
+      "tags": ["git", "devops", "productivity"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/gitops.lua",
-      "lua_file": "gitops.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "6d52d102a698618100d3830c78dfb5973a9bedc8650d506095cc63ec1e56e6d5",
-      "category": "integration"
+      "lua_file": "gitops.lua"
     },
     {
       "id": "devtools",
       "name": "Developer Tools",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "system",
       "description": "Miscellaneous dev utilities: open ports, which binary, env vars, PATH, running processes, kill by name, Node.js info, and tool version inventory. Commands: /ports /port /which /env /path /running /kill /node /versions.",
-      "tags": [
-        "development",
-        "utility",
-        "system"
-      ],
+      "tags": ["development", "utility", "system"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/devtools.lua",
-      "lua_file": "devtools.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "d010e7790ebbba1a919bbc2e166d3911903638f9b1c4fdfc6afc5098a9beae57",
-      "category": "utility"
+      "lua_file": "devtools.lua"
     },
     {
       "id": "notes",
       "name": "Quick Notes",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "productivity",
       "description": "A persistent scratchpad that lives in your terminal. Add notes, list them, search by keyword, and delete by ID. Data survives app restarts. Commands: /note /notes /delnote /clearnotes /searchnotes.",
-      "tags": [
-        "productivity",
-        "notes",
-        "utility"
-      ],
+      "tags": ["productivity", "notes", "utility"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/notes.lua",
-      "lua_file": "notes.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "3355eeddd86938037e028fc0129e05f52a518971f6d95c71c0914128a7e67f53",
-      "category": "productivity"
+      "lua_file": "notes.lua"
     },
     {
       "id": "timetools",
       "name": "Time Tools",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "utility",
       "description": "Time utilities for developers: current time in any timezone, Unix timestamps, UTC clock, age calculator, ISO week number, moon phase, and a built-in Pomodoro timer. Commands: /now /ts /utc /date /tzlist /age /pomodoro /week.",
-      "tags": [
-        "time",
-        "productivity",
-        "utility"
-      ],
+      "tags": ["time", "productivity", "utility"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/timetools.lua",
-      "lua_file": "timetools.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "e427f2256009dbb30e7c402a2ab544f3f4fc4e5440b38022cecdfd8afef871aa",
-      "category": "utility"
+      "lua_file": "timetools.lua"
     },
     {
       "id": "crypto",
       "name": "Crypto Utilities",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "utility",
       "description": "Hashing, encoding, and secret generation without leaving the terminal. SHA-256, MD5, Base64 encode/decode, UUID v4, random password generator, and secure hex tokens. Commands: /hash /b64enc /b64dec /uuid /pwgen /token.",
-      "tags": [
-        "security",
-        "utility",
-        "encoding"
-      ],
+      "tags": ["security", "utility", "encoding"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/crypto.lua",
-      "lua_file": "crypto.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "987449bdb5a0fdc4645ec0413bd12abc1244282c5c85ec54eebe29869bfd57ed",
-      "category": "utility"
+      "lua_file": "crypto.lua"
     },
     {
       "id": "weather",
       "name": "Weather",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "utility",
       "description": "Current weather, 3-day forecast, moon phase, and temperature unit conversion via wttr.in. No API key required. Commands: /weather /forecast /moon /temp.",
-      "tags": [
-        "utility",
-        "weather",
-        "network"
-      ],
+      "tags": ["utility", "weather", "network"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/weather.lua",
-      "lua_file": "weather.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "6865e7a99be7578a54464f8b41bab862e5f4c5d34cfabaa028448a4f27976aef",
-      "category": "utility"
+      "lua_file": "weather.lua"
     },
     {
       "id": "snippets",
       "name": "Code Snippets",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "productivity",
       "description": "A persistent code snippet library inside the terminal. Save named snippets, list them, search by keyword, copy to clipboard, and delete. Survives app restarts. Commands: /snip /addsnip /snips /delsnip /copysnip.",
-      "tags": [
-        "productivity",
-        "code",
-        "utility"
-      ],
+      "tags": ["productivity", "code", "utility"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/snippets.lua",
-      "lua_file": "snippets.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "f0472d1aa2ba2dfaa397fdcc9eaeb9114939ba46051e486da37b58c8b49e9198",
-      "category": "productivity"
+      "lua_file": "snippets.lua"
     },
     {
       "id": "aitools",
       "name": "AI Tools",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "ai",
       "description": "One-shot AI workflow shortcuts that send your text to the active LLM and return the result inline. Summarize, explain, ELI5, improve, review code, translate, bullet-point, debug, generate docstrings, write regexes, suggest names. Commands: /summarize /explain /eli5 /improve /review /translate /bullet /debug /docstring /regex /naming.",
-      "tags": [
-        "ai",
-        "productivity",
-        "writing"
-      ],
+      "tags": ["ai", "productivity", "writing"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/aitools.lua",
-      "lua_file": "aitools.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "25f45ed48a3b46e951223b97e30785bee1efb937b6ca9c0dd89581979fd608b1",
-      "category": "ai"
+      "lua_file": "aitools.lua"
     },
     {
       "id": "netcheck",
       "name": "Network Checker",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "network",
       "description": "Network diagnostics without leaving the terminal. Ping, public IP, DNS lookup, HTTP status check, port connectivity, traceroute, and IP geolocation. Commands: /ping /myip /dns /curl /nc /tracert /ipinfo.",
-      "tags": [
-        "network",
-        "utility",
-        "diagnostics"
-      ],
+      "tags": ["network", "utility", "diagnostics"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/netcheck.lua",
-      "lua_file": "netcheck.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "64a04d8a0199ad6cfd425dc1b72c43ccbe3613d8a2727d6ddc71ed74f83eb06d",
-      "category": "utility"
+      "lua_file": "netcheck.lua"
     },
     {
       "id": "steamdeck",
       "name": "Steam Deck Tools",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "gaming",
       "description": "Steam Deck hardware controls and status from the terminal. Battery level, TDP limit, performance governor, FPS cap, VRAM, and Game Mode detection. Commands: /deck /battery /tdp /perf /fps /vram /gamemode.",
-      "tags": [
-        "steamdeck",
-        "hardware",
-        "system"
-      ],
+      "tags": ["steamdeck", "hardware", "system"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/steamdeck.lua",
-      "lua_file": "steamdeck.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "8e66a9c06f1947d0bbb5f0724d291935b6efb0f19bec135ea8fdb0a9b903a787",
-      "category": "gaming"
+      "lua_file": "steamdeck.lua"
     },
     {
       "id": "filetools",
       "name": "File Tools",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "system",
       "description": "File system utilities for the terminal: find files, directory tree, list with details, folder sizes, recently modified files, file hash (SHA-256), and diff two files. Commands: /find /tree /ls /size /recent /hashfile /diff.",
-      "tags": [
-        "files",
-        "utility",
-        "system"
-      ],
+      "tags": ["files", "utility", "system"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/filetools.lua",
-      "lua_file": "filetools.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "01e9742d36f5dd811b7f1220b84309b69c12a39be6a2fa95937084f780348d39",
-      "category": "system"
+      "lua_file": "filetools.lua"
     },
     {
       "id": "aliases",
       "name": "Command Aliases",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "productivity",
       "description": "Create short aliases for any NEURODECK command and have them persist across app restarts. Type /alias gs git status to make /gs run /git status. Commands: /alias /aliases /unalias.",
-      "tags": [
-        "productivity",
-        "customization",
-        "utility"
-      ],
+      "tags": ["productivity", "customization", "utility"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/aliases.lua",
-      "lua_file": "aliases.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "c5b0a6ed3bfe53012167583548c7a627946254a757161095a52a13340c48e153",
-      "category": "productivity"
+      "lua_file": "aliases.lua"
     },
     {
       "id": "journal",
       "name": "Developer Journal",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "productivity",
       "description": "A persistent dev journal with auto-logging. Prefix any chat message with LOG: and it auto-saves. Browse by date, search entries, view stats. Commands: /log /journal /jtoday /searchlog /jstats /clearlog.",
-      "tags": [
-        "productivity",
-        "notes",
-        "logging"
-      ],
+      "tags": ["productivity", "notes", "logging"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/journal.lua",
-      "lua_file": "journal.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "e38e1249cc01112c5cbace46aeba7034bf7b421cb53f96dcfef1198ec273bf34",
-      "category": "productivity"
+      "lua_file": "journal.lua"
     },
     {
       "id": "sysevents",
       "name": "System Events & Security Watch",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "system",
       "description": "Passive security monitor that watches every message for dangerous patterns (rm -rf, DROP TABLE, curl|bash, plaintext secrets) and warns you before you run them. Also tracks session command usage stats. Commands: /stats /watch.",
-      "tags": [
-        "security",
-        "monitoring",
-        "utility"
-      ],
+      "tags": ["security", "monitoring", "utility"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/sysevents.lua",
-      "lua_file": "sysevents.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "fc28d4236ce488913063949586c8f13a0b6878c55e79be9b13e78027aba17fa9",
-      "category": "system"
+      "lua_file": "sysevents.lua"
     },
     {
       "id": "docker",
       "name": "Docker Toolkit",
       "author": "khaoticdev62",
       "version": "1.0.0",
+      "category": "integration",
       "description": "The most common Docker operations as short terminal commands. Running containers, logs, start/stop/restart, exec, image management, prune, stats, inspect, and docker-compose shortcuts. Commands: /dps /dpsa /dlogs /dstart /dstop /drestart /dexec /dimages /drm /drmi /dclean /dstats /dinspect /dcompose.",
-      "tags": [
-        "docker",
-        "devops",
-        "containers"
-      ],
+      "tags": ["docker", "devops", "containers"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/docker.lua",
-      "lua_file": "docker.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "dfd724f281b2ef163c31c95de6ea124da8dd4cb2d2c00b150ac161d6947223d7",
-      "category": "integration"
+      "lua_file": "docker.lua"
     },
     {
       "id": "coderunner",
       "name": "Code Runner",
       "author": "khaoticdev62",
       "version": "1.0.0",
-      "description": "Execute code snippets in popular languages directly from chat. Python, Node.js, Shell, Lua (in-runtime), and Rust \u2014 paste and run without leaving NEURODECK. Commands: /py /js /sh /lua /rs /eval /repl.",
-      "tags": [
-        "development",
-        "code",
-        "repl"
-      ],
+      "category": "integration",
+      "description": "Execute code snippets in popular languages directly from chat. Python, Node.js, Shell, Lua (in-runtime), and Rust — paste and run without leaving NEURODECK. Commands: /py /js /sh /lua /rs /eval /repl.",
+      "tags": ["development", "code", "repl"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/coderunner.lua",
-      "lua_file": "coderunner.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "8e7558c64ae7a49d9db05020db6e4c646cc80bff470396f1f639462672eebd0d",
-      "category": "utility"
+      "lua_file": "coderunner.lua"
     },
     {
       "id": "sprint",
       "name": "Sprint & Task Tracker",
       "author": "khaoticdev62",
       "version": "1.0.0",
-      "description": "A lightweight sprint board inside the terminal. Add tasks with priority levels, move them through todo/doing/done/blocked, and track velocity \u2014 persisted as plain text. No Jira needed. Commands: /task /tasks /doing /done /blocked /deltask /velocity.",
-      "tags": [
-        "productivity",
-        "planning",
-        "agile"
-      ],
+      "category": "productivity",
+      "description": "A lightweight sprint board inside the terminal. Add tasks with priority levels, move them through todo/doing/done/blocked, and track velocity — persisted as plain text. No Jira needed. Commands: /task /tasks /doing /done /blocked /deltask /velocity.",
+      "tags": ["productivity", "planning", "agile"],
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/sprint.lua",
-      "lua_file": "sprint.lua",
-      "installed": false,
-      "enabled": false,
-      "sha256": "6318a38be3fcaf157d782f1256bc5adf21e4f756b126dd21156f76d001237a7a",
-      "category": "productivity"
+      "lua_file": "sprint.lua"
     },
     {
-      "id": "com.khaotic.workspace",
-      "name": "Workspace Manager",
-      "author": "Khaotic Labs",
+      "id": "calculator",
+      "name": "Calculator",
+      "author": "khaoticdev62",
       "version": "1.0.0",
-      "description": "A \"workspace\" is a named project with a root path and optional quick-run commands. Switching workspace sets the context ...",
-      "tags": [
-        "workspace",
-        "productivity"
-      ],
-      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/workspace.lua",
-      "lua_file": "workspace.lua",
-      "sha256": "f6da2d0cad9e8f5e50d44d3a06bc1efc4c952379b28c436880ae1e2d770ddaf8",
-      "category": "productivity"
+      "category": "utility",
+      "description": "Safe math evaluator with unit and base conversions — all inside the terminal. Supports arithmetic, unit conversion (km/mi, kg/lb, C/F, etc.), hex/binary conversions. Commands: /calc /convert /hex /bin.",
+      "tags": ["utility", "math", "conversion"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/calculator.lua",
+      "lua_file": "calculator.lua"
+    },
+    {
+      "id": "clipboard",
+      "name": "Clipboard Manager",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "category": "productivity",
+      "description": "Persistent clipboard history — save text snippets, browse the last 50 entries, search, copy to system clipboard, and delete. Survives restarts. Commands: /clip /clips /copyclip /delclip /clearclips /searchclips.",
+      "tags": ["productivity", "utility", "clipboard"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/clipboard.lua",
+      "lua_file": "clipboard.lua"
+    },
+    {
+      "id": "pkgtools",
+      "name": "Package Manager Tools",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "category": "system",
+      "description": "Unified shortcuts for npm, pip, cargo, pacman, and apt — the most common package managers in one place. Auto-detects what's installed. Commands: /npm /pip /cargo /pac /apt /pkginfo.",
+      "tags": ["development", "packages", "system"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/pkgtools.lua",
+      "lua_file": "pkgtools.lua"
+    },
+    {
+      "id": "rss",
+      "name": "RSS Reader",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "category": "productivity",
+      "description": "Fetch and browse RSS/Atom feeds in the terminal. Includes Hacker News and LWN.net by default. Add custom feeds, browse by number, and read headlines without leaving NEURODECK. Commands: /rss /addfeed /feeds /delfeed.",
+      "tags": ["productivity", "news", "network"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/rss.lua",
+      "lua_file": "rss.lua"
+    },
+    {
+      "id": "bookmarks",
+      "name": "URL Bookmarks",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "category": "productivity",
+      "description": "Save, tag, search, and open URLs directly from the terminal. Persistent across restarts, with tag-based organisation. Commands: /bm /bms /delbm /searchbm /openbm /tagbm.",
+      "tags": ["productivity", "bookmarks", "utility"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/bookmarks.lua",
+      "lua_file": "bookmarks.lua"
+    },
+    {
+      "id": "templates",
+      "name": "Document Templates",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "category": "productivity",
+      "description": "Ready-to-use templates for PRs, standups, bug reports, commit messages, READMEs, and API docs. Add custom templates and call them by name. Commands: /tpl /tpls /addtpl /deltpl.",
+      "tags": ["productivity", "writing", "templates"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/templates.lua",
+      "lua_file": "templates.lua"
+    },
+    {
+      "id": "screentools",
+      "name": "Screen Tools",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "category": "system",
+      "description": "Screenshot, screen recording, display info, and brightness control — Steam Deck, Linux, and Windows. Detects platform automatically. Commands: /screenshot /record /stoprecord /displays /brightness.",
+      "tags": ["system", "steamdeck", "media"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/screentools.lua",
+      "lua_file": "screentools.lua"
+    },
+    {
+      "id": "webhook",
+      "name": "Webhook Receiver",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "category": "integration",
+      "description": "Quick local HTTP webhook listener for testing integrations — no external tools needed. Start a listener on any port, log incoming requests, and get the LAN URL instantly. Commands: /webhook /webhookstop /webhooklogs /webhookurl.",
+      "tags": ["integration", "network", "development"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/webhook.lua",
+      "lua_file": "webhook.lua"
+    },
+    {
+      "id": "translate",
+      "name": "AI Translator",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "category": "ai",
+      "description": "Translate text into 25 languages using the active LLM — no external API key needed. Supports language detection and short /tl alias. Commands: /translate /tl /detect /languages.",
+      "tags": ["ai", "language", "translation"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/translate.lua",
+      "lua_file": "translate.lua"
+    },
+    {
+      "id": "dbtools",
+      "name": "Database Tools",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "category": "integration",
+      "description": "Quick SQLite, PostgreSQL, and MySQL shortcuts — connect, query, inspect schema, list tables, and export. Uses system binaries (sqlite3/psql/mysql). Commands: /sqlite /dbtables /dbschema /dbexport /psql /mysql.",
+      "tags": ["database", "development", "integration"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/dbtools.lua",
+      "lua_file": "dbtools.lua"
     }
   ]
 }
