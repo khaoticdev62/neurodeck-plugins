@@ -353,5 +353,17 @@
       "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/dbtools.lua",
       "lua_file": "dbtools.lua"
     }
+ ,
+    {
+      "id": "workspace",
+      "name": "Workspace Manager",
+      "author": "khaoticdev62",
+      "version": "1.0.0",
+      "category": "productivity",
+      "description": "Switch between named project contexts with a single command. Each workspace stores a root path and up to 3 quick-run scripts (dev/test/build). Remembers your last active workspace. Commands: /ws /wsls /wsnew /wsdel /wsrun.",
+      "tags": ["productivity", "projects", "workflow"],
+      "download_url": "https://raw.githubusercontent.com/khaoticdev62/neurodeck-plugins/main/plugins/workspace.lua",
+      "lua_file": "workspace.lua"
+    }
   ]
 }
